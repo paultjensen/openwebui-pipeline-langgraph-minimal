@@ -4,12 +4,12 @@ author: ...
 date: 2025-1-27
 version: 0.1
 description: ...
-requirements: typing_extensions, pydantic==2.7.4, langchain, langchain-ollama, langchain-core, langchain-community, langgraph
 """
 # Moving the following line into the comments above will pip install all the requirements on 
 # the Open WebUI Pipeline server. Moving the requirements out of the comments keeps them from
 # being installed on every neww installation of the pipeline code.
-#
+# requirements: typing_extensions, pydantic==2.7.4, langchain, langchain-ollama, langchain-core, langchain-community, langgraph
+
 import logging
 
 from langchain_core.documents import Document
