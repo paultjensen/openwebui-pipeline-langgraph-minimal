@@ -1,5 +1,5 @@
 import json
-from ai_agent import graph, State
+from ai_agent_async import graph, State
 from fastapi import FastAPI, Request, Response
 from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
